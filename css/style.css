@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  margin: 140px 16px;
+  background: linear-gradient(#FF7AD6 25%, #14E1FF 55%, #5C4BFF 90%);
+  background-repeat: no-repeat;
+}
+
+.container-header {
+  height: 32px;
+  background-color: #5C4BFF;
+  border-radius: 8px 8px 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 32px 24px;
+  background-color: #FDFFF2;
+  border-radius: 0 0 8px 8px;
+}
+
+section {
+  padding-bottom: 24px;
+  border-bottom: 2px dashed #FF7AD6;
+}
+
+h1,
+h2 {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #5C4BFF;
+  text-transform: lowercase;
+  transform: rotate(-4deg);
+  padding-bottom: 0.5em;
+}
+
+p {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  padding-bottom: 10px;
+  color: #5C4BFF;
+}
+
+a {
+  font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #5C4BFF;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
