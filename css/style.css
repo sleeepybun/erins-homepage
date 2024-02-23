@@ -80,6 +80,55 @@ img{
   margin: 0 auto;
 }
 
+@media (min-width: 800px) {
+  body {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .two-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: stretch;
+    gap: 24px;
+  }
+  .two-column h1, 
+  .two-column h2 {
+    flex-grow: 1;
+    flex-basis: 33.33%;
+  }
+  .two-column div {
+    flex-grow: 2;
+    flex-basis: 66.66%;
+  }
+}
+
+@media (min-width: 1279px) {
+  .container {
+    padding-left: 180px;
+    padding-right: 180px;
+    display: flex;
+    gap: 24px;
+  }
+  .desktop-content {
+    flex-basis: 66.66%;
+  }
+  .desktop-sidebar {
+    flex-basis: 33.33%
+  }
+  .desktop-sidebar .two-column {
+    flex-direction: column;
+    gap: 0;
+  }
+  .desktop-sidebar .two-column p {
+    margin-top: 0;
+  }
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
