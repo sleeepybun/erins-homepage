@@ -70,10 +70,20 @@ a {
   color: #5C4BFF;
   text-decoration-style: dashed;
   text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+
+  background-image: linear-gradient(90deg, #5C4BFF, #5C4BFF);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+
+  transition: background-size 500ms;
 }
 
-a:hover {
-
+a:hover,
+a:focus {
+  background-size: 100% 100%;
+  color: #FDFFF2;
+  text-decoration-style: unset;
 }
 
 .embeddable-buttondown-form {
