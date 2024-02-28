@@ -56,7 +56,21 @@
           <h2>A Poem Miasma</h2>
           <div>
             <p>Sign up for my email newsletter about poems.</p>
-            <!-- TODO: Add embed newsletter link -->
+            <form
+              action="https://buttondown.email/api/emails/embed-subscribe/interrobang"
+              method="post"
+              target="popupwindow"
+              onsubmit="window.open('https://buttondown.email/interrobang', 'popupwindow')"
+              class="embeddable-buttondown-form"
+            >
+              <label for="bd-email">Enter your email</label>
+              <input type="email" name="email" id="bd-email" />
+              
+              <input type="submit" value="Subscribe" />
+              <p>
+                <a href="https://buttondown.email/refer/interrobang" target="_blank">Powered by Buttondown.</a>
+              </p>
+            </form>
           </div>
         </section>
   
