@@ -141,6 +141,17 @@ img{
   margin: 0 auto;
 }
 
+.party-popper-emoji {
+  font-size: 48px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+section.last {
+  border-bottom: 0;
+}
+
 @media (min-width: 800px) {
   body {
     margin-left: 40px;
@@ -172,6 +183,7 @@ img{
   .container {
     padding-left: 180px;
     padding-right: 180px;
+    padding-bottom: 180px;
     display: flex;
     gap: 24px;
   }
@@ -187,6 +199,9 @@ img{
   }
   .desktop-sidebar .two-column p {
     margin-top: 0;
+  }
+  .party-popper-emoji {
+    text-align: left;
   }
 }
 
