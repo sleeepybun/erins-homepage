@@ -72,11 +72,9 @@ a {
   text-decoration-thickness: 2px;
   text-underline-offset: 4px;
 
-  background-image: linear-gradient(90deg, #5C4BFF, #5C4BFF);
+  background-image: linear-gradient(#5C4BFF, #5C4BFF);
   background-size: 0% 100%;
   background-repeat: no-repeat;
-
-  transition: background-size 500ms;
 }
 
 a:hover,
