@@ -162,18 +162,28 @@ section.last {
   .two-column {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
     align-content: stretch;
     gap: 24px;
+    margin-bottom: 24px;
   }
   .two-column h1, 
-  .two-column h2 {
+  .two-column h2,
+  .two-column .tada-section {
     flex-grow: 1;
     flex-basis: 33.33%;
   }
   .two-column div {
     flex-grow: 2;
     flex-basis: 66.66%;
+  }
+  .tada-section {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .party-popper-emoji {
+    text-align: left;
   }
 }
 
